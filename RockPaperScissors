@@ -47,7 +47,6 @@ public class RockPaperScissors{
 			return "Scissors";
 		}
 		return "MEOW";
-		
 	}
 	public static String didPersonWin(int pChoice, int computerChoice) {
 		if (pChoice == 0){
