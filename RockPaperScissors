@@ -103,9 +103,9 @@ public class RockPaperScissors{
 			return 2;
 		}
 	}
-	public static boolean gNum (int g) 
+	public static boolean gNum (int g) // *trying to make player round input an odd number
 		{
-			if (g >= 3 && (g % 2 != 0)){
+			if (g >= 3 && (g % 2 != 0)){ //*
 				return true ;
 			}
 			else 
